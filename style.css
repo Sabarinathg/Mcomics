@@ -133,8 +133,21 @@ main{
     background-color: white;
     background-image: url(content-page-curl.jpg);
     background-repeat: no-repeat;
-    background-position: right bottom !important;
+    background-position: bottom right !important;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.Comics .btn-all
+{
+    width:95%;
+    margin-right:0;
+    position:relative;
+}
+.btn-all button
+{
+    position: relative;
+    float:right;
 }
 .com-con
 {
