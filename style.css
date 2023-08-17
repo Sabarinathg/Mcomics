@@ -309,25 +309,10 @@ footer{
     color:white;
     background-color: #000;
     display:flex;
+    text-align: center;
+    justify-content: center;
 }
-footer .foot-nav
+footer .copy
 {
-    display: flex;
-    list-style: none;
-    font-size: 1rem;
-}
-.foot-nav li a{
-    margin:0.4em;
-}
-.foot-nav li a:hover{
-    color: #f3b000;
-}
-footer .copy{
-    float: right;
-    flex:1;
-    margin-left:20px;
-}
-.copy{
-    text-align: right;
-    margin:5px;
+    margin:10px;
 }
