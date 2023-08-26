@@ -280,8 +280,7 @@ main{
    width:150px;
    height:150px;
    border-radius: 50%;
-   background-color: #344056;
-   object-fit: cover;
+   object-fit: contain;
 }
 .Contact
 {
